@@ -633,7 +633,7 @@ You have deployed the Catalog service as a microservice which in turn calls into
 
 Navigate back to you PostgreSQL connection and refresh your `OCPUSER0XX` database. Now, expand `Tables` to see the newly created Catalog table. 
 
-<kbd>![](images/AROLatestImages/bothdb.jpg)</kbd>
+<kbd>![](images/AROLatestImages/bothdbs.jpg)</kbd>
 
 
 ## Strangling the monolith
