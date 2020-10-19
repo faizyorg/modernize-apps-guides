@@ -25,9 +25,9 @@ Open the PostgreSQL Database to see the Host name/Server name.
 
 Username and password of the Azure Postgre SQL Database are provided in the environment details page.
 
-To access PostgreSQL database we need to install `PGAdmin` in our local system. Open the `PGAdmin` app, it will get open up in the default browser of your system.
+To access PostgreSQL database, you need to install `PGAdmin` in your local machine (https://www.pgadmin.org/download/). Open the `PGAdmin` app, it will get open up in the default browser of your system.
 
-PGAdmin may ask to set a master password while opening for the first time.
+PGAdmin may ask to set a master password while opening for the first time. Provide any password.
 
 <kbd>![](images/AROLatestImages/master.jpg)</kbd>
 
