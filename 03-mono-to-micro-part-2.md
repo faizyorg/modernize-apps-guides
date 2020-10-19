@@ -1,4 +1,4 @@
-# SCENARIO 4: Transforming an existing monolith (Part 2)
+# SCENARIO 3: Transforming an existing monolith (Part 2)
 
 * Purpose: Showing developers and architects how Red Hat jumpstarts modernization
 * Difficulty: `intermediate`
