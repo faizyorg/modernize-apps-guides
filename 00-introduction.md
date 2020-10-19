@@ -21,7 +21,7 @@ We are also using an Azure PostgreSQL Database in this lab. Please open `Postgre
 
 Open the PostgreSQL Database to see the Host name/Server name.
 
-<kbd>![](images/postgre/postgress.jpg)</kbd>
+<kbd>![](images/AROLatestImages/postgress.jpg)</kbd>
 
 Username and password of the Azure Postgre SQL Database are provided in the environment details page.
 
