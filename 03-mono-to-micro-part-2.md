@@ -629,6 +629,13 @@ The UI will refresh the catalog table every 2 seconds, as before.
 
 You have deployed the Catalog service as a microservice which in turn calls into the Inventory service to retrieve inventory data. However, our monolih UI is still using its own built-in services. Wouldn't it be nice if we could re-wire the monolith to use the new services, **without changing any code**? That's next!
 
+## Access Catalog Table
+
+Navigate back to you PostgreSQL connection and refresh your `OCPUSER0XX` database. Now, expand `Tables` to see the newly created Catalog table. 
+
+<kbd>![](images/AROLatestImages/bothdb.jpg)</kbd>
+
+
 ## Strangling the monolith
 
 So far we haven't started [strangling the monolith](https://www.martinfowler.com/bliki/StranglerApplication.html). To do this we are going to make use of routing capabilities in OpenShift. Each external request coming into OpenShift (unless using ingress, which we are not) will pass through a route. In our monolith the web page uses client side REST calls to load different parts of pages.
