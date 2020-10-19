@@ -1,4 +1,5 @@
-## Validate the environment in Azure.
+# Getting Started
+## Validate your Azure Environment
 
 Azure Red Hat OpenShift provides a flexible, self-service deployment of fully managed OpenShift clusters. Maintain regulatory compliance and focus on your application development, while your master, infrastructure and application nodes are patched, updated and monitored by both Microsoft and Red Hat. Choose your own registry, networking, storage or CI/CD solutions.
 We are using a pre-created Azure Red Hat OpenShift cluster in this lab.
@@ -6,8 +7,6 @@ We are using a pre-created Azure Red Hat OpenShift cluster in this lab.
 ### Login to Azure
 
 Navigate to https://portal.azure.com. Login using the Azure Username and Password provided in the lab enviornment details page. Go to Select resource groups to see all the Resource groups in the subscription
-
-<kbd>![](images/AROLatestImages/azure.jpg)</kbd>
 
 Open `Jboss-labs` resource group to see the pre-created OpenShift Cluster. You can see a Virtual Network and an Openshift cluster in this Resource group.  
 
@@ -22,7 +21,7 @@ We are also using an Azure PostgreSQL Database in this lab. Please open `Postgre
 
 Open the PostgreSQL Database to see the Host name/Server name.
 
-<kbd>![](images/postgre/aro-main.jpg)</kbd>
+<kbd>![](images/postgre/postgress.jpg)</kbd>
 
 Username and password of the Azure Postgre SQL Database are provided in the environment details page.
 
