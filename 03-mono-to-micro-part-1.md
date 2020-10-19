@@ -354,6 +354,12 @@ INFO  [io.quarkus] (Quarkus Shutdown Thread) Quarkus stopped in 0.007s
 
 This indicates the application is stopped.
 
+## Access Inventory Table
+
+Navigate back to you PostgreSQL connection and refresh your `OCPUSER0XX` database. Now, expand `Tables` to see the newly created Inventory table. 
+
+<kbd>![](images/AROLatestImages/inventorydb.jpg)</kbd>
+
 ## Congratulations
 
 You have now successfully created your first microservice using Quarkus and implemented a basic RESTful API on top of the database. Most of the code is the same as was found in the monolith, demonstrating how easy it is to migrate existing monolithic Java EE applications to microservices using Quarkus.
