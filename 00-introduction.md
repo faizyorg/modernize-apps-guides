@@ -6,7 +6,7 @@ We are using a pre-created Azure Red Hat OpenShift cluster in this lab.
 
 ### Login to Azure
 
-Navigate to https://portal.azure.com. Login using the Azure Username and Password provided in the lab enviornment details page. Go to Select resource groups to see all the Resource groups in the subscription
+Navigate to https://portal.azure.com. Login using the Azure Username and Password provided in the lab enviornment details page. Select `Resource groups` to see all the Resource groups in the subscription
 
 Open `Jboss-labs` resource group to see the pre-created OpenShift Cluster. You can see a Virtual Network and an Openshift cluster in this Resource group.  
 
@@ -67,7 +67,7 @@ OpenShift ships with a web-based console that will allow users to
 perform various tasks via a browser.  To get a feel for how the web console
 works, open your browser and go to the **OpenShift Web Console url** provided in the environment details page.
 
-The first screen you will see is the authentication screen. Select **htpasswd** option and enter your **CodeReady Workspace username** and **password**.
+The first screen you will see is the authentication screen. Select **htpasswd** option and enter your **OpenShift Workspace username** and **password** to login to OpenShift console.
 <kbd>![](images/AROLatestImages/htpasswd.jpg)</kbd>
 <kbd>![](images/AROLatestImages/login.jpg)</kbd>
 CodeReady Workspaces and your deployment environment, both, run on this OpenShift cluster.
@@ -77,7 +77,7 @@ CodeReady Workspaces and your deployment environment, both, run on this OpenShif
 Follow these instructions to setup the development environment on CodeReady Workspaces.
 
 You might be familiar with the Eclipse IDE which is one of the most popular IDEs for Java and other
-programming languages. [CodeReady Workspaces](https://www.eclipse.org/che/) is the next-generation Eclipse IDE which is web-based
+programming languages. [CodeReady Workspaces](https://developers.redhat.com/products/codeready-workspaces/overview) is the next-generation Eclipse IDE which is web-based
 and gives you a full-featured IDE running in the cloud. You have an CodeReady Workspaces instance deployed on your OpenShift cluster
 which you will use during these labs.
 
