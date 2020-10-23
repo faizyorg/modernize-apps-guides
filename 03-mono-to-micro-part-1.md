@@ -9,9 +9,9 @@ In the previous scenarios you learned how to take an existing monolithic Java EE
 
 You will now begin the process of modernizing the application by breaking the application into multiple microservices using different technologies, with the eventual goal of re-architecting the entire application as a set of distributed microservices. Later on we'll explore how you can better manage and monitor the application after it is re-architected.
 
-In this scenario you will learn more about [Quarkus](https://quarkus.io/), one of the runtimes included in [Red Hat Runtimes](https://www.redhat.com/en/products/runtimes). Quarkus is a great place to start since our application is a Java EE application, and your skills as a Java EE developer will naturally translate to the world of Quarkus.
+In this scenario you will learn more about [Quarkus](https://quarkus.io/), one of the runtimes included in [Red Hat Runtimes](https://www.redhat.com/en/products/runtimes). Quarkus is a great place to start since our application is a Java application, and your skills as a Java developer will naturally translate to the world of Quarkus."
 
-You will implement one component of the monolith as a Qurkus microservice and modify it to address microservice concerns, understand its structure, deploy it to OpenShift and exercise the interfaces between Quarkus apps, microservices, and OpenShift/Kubernetes.
+You will implement one component of the monolith as a Quarkus microservice and modify it to address microservice concerns, understand its structure, deploy it to OpenShift and exercise the interfaces between Quarkus apps, microservices, and OpenShift/Kubernetes.
 
 ## Goals of this scenario
 
@@ -27,7 +27,7 @@ Quarkus is designed to work with popular Java standards, frameworks, and librari
 
 Quarkus’ dependency injection solution is based on CDI (contexts and dependency injection) and includes an extension framework to expand functionality and to configure, boot, and integrate a framework into your application. Adding an extension is as easy as adding a dependency, or you can use Quarkus tooling.
 
-It also provides the correct information to GraalVM (a universal virtual machine for running apps written in a number of languages, including Java and JavaScript) for native compilation of your application.
+It also enables native compilation using Mandrel, a distribution of GraalVM + OpenJDK." and link the word "Mandrel" to https://github.com/graalvm/mandrel
 
 ## Setup for Exercise
 
@@ -356,7 +356,7 @@ This indicates the application is stopped.
 
 ## Access Inventory Table
 
-Navigate back to you PostgreSQL connection and refresh your `OCPUSER0XX` database. Now, expand `Tables` to see the newly created Inventory table. 
+Navigate back to you Azure PostgreSQL Database in PGAdmin and refresh your `OCPUSER0XX` database. Now, expand `Tables` to see the newly created Inventory table. 
 
 <kbd>![](images/AROLatestImages/inventorydb.jpg)</kbd>
 
