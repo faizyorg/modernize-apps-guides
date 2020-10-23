@@ -125,7 +125,7 @@ In the CodeReady workspace open a new terminal and run the below command:
 curl http://localhost:8081
 
 ```
-You should now see the html page HTML.
+You should now see the raw html page content.
 
 > **NOTE:** The service calls to get products from the catalog doesn't work yet. Be patient! We will work on it in the next steps.
 
@@ -678,7 +678,7 @@ Leave other values set to their defaults, and click **Create**
 
 **4. Test the route**
 
-Test the route by running `curl http://www-ocpuser0XX-coolstore-dev.{{ROUTE_SUFFIX}}/services/products`
+Test the route by running `curl http://$(oc get route www -o jsonpath="{.spec.host}")/services/products`
 
 You should get a complete set of products, along with their inventory.
 
