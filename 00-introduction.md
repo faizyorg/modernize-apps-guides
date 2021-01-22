@@ -29,8 +29,8 @@ CodeReady Workspaces and your deployment environment, both, run on this OpenShif
 Follow these instructions to setup the development environment on CodeReady Workspaces.
 
 You might be familiar with the Eclipse IDE which is one of the most popular IDEs for Java and other
-programming languages. [CodeReady Workspaces](https://www.eclipse.org/che/) is the next-generation Eclipse IDE which is web-based
-and gives you a full-featured IDE running in the cloud. You have an CodeReady Workspaces instance deployed on your OpenShift cluster
+programming languages. [CodeReady Workspaces](https://developers.redhat.com/products/codeready-workspaces/overview) is the next-generation Eclipse IDE which is web-based
+and gives you a full-featured IDE running in the cloud. You have a CodeReady Workspaces instance deployed on your OpenShift cluster
 which you will use during these labs.
 
 Go to the **CodeReady Workspaces url** in order to configure your development workspace
@@ -43,9 +43,9 @@ CodeReady Workspaces IDE running in your browser.
 
 This would be the point at which you would import the project skeletons into your workspace. For this lab, the projects are already imported into your workspace and are visible in the project explorer
 
-Codeready Workspaces is a full featured IDE and provides language specific capabilities for various project types. 
+Codeready Workspaces is a full featured IDE and provides language specific capabilities for various project types.
 
-Note the **Terminal** option in Codeready Workspaces. CLick on terminal and select **Open Terminal in Specific container**. Then select the default container to open the terminal. 
+Note the **Terminal** option in Codeready Workspaces. CLick on terminal and select **Open Terminal in Specific container**. Then select the default container to open the terminal.
 
 <kbd>![](images/AROLatestImages/openterminal.jpg)</kbd>
 <kbd>![](images/AROLatestImages/selectcontainer.jpg)</kbd>
@@ -59,11 +59,11 @@ For the rest of these labs, anytime you need to run a command in a terminal, you
 
 In order to login, we will use the `oc` command. We can get the login command from OpenShift Console.
 
-Go to your OpenShift console and click on your username icon on the top right of the screen to open up the pop-down menu and then select **"Copy Login Command"**. 
+Go to your OpenShift console and click on your username icon on the top right of the screen to open up the pop-down menu and then select **"Copy Login Command"**.
 
 <kbd>![](images/AROLatestImages/copylogin.jpg)</kbd>
 
-Then, it will open a new browser tab with a Display Token button. You can click on this button to get the login command.
+You will need to enter the same OpenShift credentials again. Then, it will open a new browser tab with a Display Token button. You can click on this button to get the login command.
 
 <kbd>![](images/AROLatestImages/displaytoken.jpg)</kbd>
 
