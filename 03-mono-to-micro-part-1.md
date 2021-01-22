@@ -390,7 +390,7 @@ Next, add the following lines to your _modernize-apps/inventory/src/main/resourc
 %prod.quarkus.kubernetes.deployment-target=openshift
 %prod.quarkus.openshift.expose=true
 %prod.quarkus.openshift.labels.app.openshift.io/runtime=quarkus
-----
+~~~
 
 This configures the Kubernetes and Quarkus extensions on how to build and deploy the application after it is built. Quarkus will create the necessary resource objects (typically written in yaml), and automatically add them to our namespace to cause the app to be built and deployed.
 
@@ -440,7 +440,7 @@ In our case we will implement the health check logic in a REST endpoint and let 
 Add the Quarkus Health Probe extension for Kubernetes via the Terminal:
 
 ~~~sh
-mvn -q quarkus:add-extension -Dextensions="quarkus-smallrye-healt"
+mvn -q quarkus:add-extension -Dextensions="quarkus-smallrye-health"
 ~~~
 
 you will see:
