@@ -49,7 +49,7 @@ Once you successfully connected to the database, Expand `Databases` to see the d
 
 ## Getting Started with OpenShift
 
-In this lab you will also get familiar with the OpenShift CLI and OpenShift Web Console and get ready for the Application Modernization labs.
+In this lab you will get familiar with the OpenShift CLI and OpenShift Web Console and get ready for the Application Modernization labs.
 
 For completing the following labs, you can either use your own workstation or as an
 alternative, CodeReady Workspaces web IDE. The advantage of your own workstation is that you use the
@@ -67,7 +67,7 @@ OpenShift ships with a web-based console that will allow users to
 perform various tasks via a browser.  To get a feel for how the web console
 works, open your browser and go to the **OpenShift Web Console url** provided in the environment details page.
 
-The first screen you will see is the authentication screen. Select **htpasswd** option and enter your **OpenShift Workspace username** and **password** to login to OpenShift console.
+The first screen you will see is the authentication screen. Select **htpasswd** option and enter your **OpenShift username** and **password**. 
 <kbd>![](images/AROLatestImages/htpasswd.jpg)</kbd>
 <kbd>![](images/AROLatestImages/login.jpg)</kbd>
 CodeReady Workspaces and your deployment environment, both, run on this OpenShift cluster.
@@ -78,7 +78,7 @@ Follow these instructions to setup the development environment on CodeReady Work
 
 You might be familiar with the Eclipse IDE which is one of the most popular IDEs for Java and other
 programming languages. [CodeReady Workspaces](https://developers.redhat.com/products/codeready-workspaces/overview) is the next-generation Eclipse IDE which is web-based
-and gives you a full-featured IDE running in the cloud. You have an CodeReady Workspaces instance deployed on your OpenShift cluster
+and gives you a full-featured IDE running in the cloud. You have a CodeReady Workspaces instance deployed on your OpenShift cluster
 which you will use during these labs.
 
 Go to the **CodeReady Workspaces url** in order to configure your development workspace
@@ -111,7 +111,7 @@ Go to your OpenShift console and click on your username icon on the top right of
 
 <kbd>![](images/AROLatestImages/copylogin.jpg)</kbd>
 
-Then, it will open a new browser tab with a Display Token button. You can click on this button to get the login command.
+You will need to enter the same OpenShift credentials again. Then, it will open a new browser tab with a Display Token button. You can click on this button to get the login command.
 
 <kbd>![](images/AROLatestImages/displaytoken.jpg)</kbd>
 
