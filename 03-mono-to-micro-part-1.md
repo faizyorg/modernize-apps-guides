@@ -270,14 +270,6 @@ mvn clean package
 
 You should see a **BUILD SUCCESS** in the build logs. If builds successfully, continue to the next step to create a new RESTful endpoint that uses this service.
 
-Build and package the Inventory service using Maven to make sure your code compiles:
-
-~~~sh
-mvn clean package
-~~~~
-
-If it builds successfully, continue to the next step to test the app.
-
 ## Test Locally
 
 Using the Quarkus maven plugin (predefined in pom.xml), you can conveniently run the application locally and test the endpoint by entering the following command in the CodeReady Workspaces Terminal window:
